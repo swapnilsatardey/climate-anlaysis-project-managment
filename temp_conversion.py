@@ -1,8 +1,8 @@
 # Todo: Code is a bit unclear
 
 def Fc(x):
-    Y = (x - 32) * (5 / 9)
-    return Y
+    celsius = (x - 32) * (5 / 9)
+    return celsius
 
 def FK(x):
     y = Fc(x)
